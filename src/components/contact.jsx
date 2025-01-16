@@ -8,33 +8,48 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, company, phone, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = (e) => {
+
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+
+    const data = {
+      name,
+      email,
+      company,
+      phone,
+      message
+    };
+
+    try {
+      const response = await fetch('https://sheetdb.io/api/v1/bq06l6o9z5ucc', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        body: JSON.stringify({ data }),
+      });
+
+      if (response.ok) {
+        alert('Formulário enviado com sucesso!');
+        clearState();
+      } else {
+        console.error('Erro ao enviar os dados:', response.statusText);
+        alert('Houve um erro ao enviar o formulário.');
+      }
+    } catch (error) {
+      console.error('Erro ao enviar os dados:', error);
+      alert('Houve um erro ao enviar o formulário.');
+    }
   };
+
   return (
     <div>
       <div id="contact">
@@ -42,7 +57,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Fale com a gente:</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
@@ -57,7 +72,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nome Completo"
                         required
                         onChange={handleChange}
                       />
@@ -79,6 +94,39 @@ export const Contact = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                          type="text"
+                          id="company"
+                          name="company"
+                          className="form-control"
+                          placeholder="Nome da Empresa"
+                          required
+                          onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          className="form-control"
+                          placeholder="Telefone"
+                          pattern="^(?:(?:\+|00)?(55)\s?)?(?:(?:\(?[1-9][0-9]\)?)?\s?)?(?:((?:9\d|[2-9])\d{3})-?(\d{4}))$"
+                          required
+                          onInvalid={(e) => e.target.setCustomValidity('Por favor, insira um telefone válido no formato (11) 91234-5678.')}
+                          onInput={(e) => e.target.setCustomValidity('')}
+                          onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                </div>
                 <div className="form-group">
                   <textarea
                     name="message"
@@ -93,7 +141,7 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Solicitar Contato
                 </button>
               </form>
             </div>

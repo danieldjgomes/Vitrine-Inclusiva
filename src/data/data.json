@@ -16,7 +16,8 @@
       "Lorem ipsum dolor",
       "Exercitation ullamco",
       "Lorem ipsum dolor"
-    ]
+    ],
+    "mission": "“Transformar o mercado, promovendo a equidade e ampliação de oportunidades para grupos socialmente minorizados, por meio de avaliação, certificação e suporte a empresas comprometidas com a diversidade e inclusão."
   },
   "Gallery": [
     {
@@ -69,32 +70,32 @@
     {
       "icon": "fa fa-wordpress",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Cultura Data Drive Decisions - identifique pontos de atenção e trabalhe as potencialidades."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Visibilidade do compromisso com D&I, Políticas de ESG e ODS's com selos e relatórios anuais."
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Estabeleça uma cultura de transparência e fortalecimento da marca empregadora."
     },
     {
       "icon": "fa fa-language",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Um ambiente de trabalho diverso promove a inovação contribuindo para o  resultados financeiros e sucesso da organização."
     },
     {
       "icon": "fa fa-plane",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Identificar oportunidades de melhoria para atrair e reter talentos."
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Promover um ambiente seguro e segurança psicológica para todas as pessoas."
     }
   ],
   "Testimonials": [
@@ -131,24 +132,22 @@
   ],
   "Team": [
     {
+      "img": "img/team/03.jpg",
+      "name": "Erica Lima (Ela/Dela) ",
+      "job": "Tech Recruiter e Especialista em Psicologia Organizacional e Business Innovation",
+      "url": "https://www.linkedin.com/in/ericasilvalima/"
+    },
+    {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Jefferson Reis (Ele/Dele)",
+      "job": "Analista de Dados e Especialista em Bussinnes Intelligente and Analytics",
+      "url": "https://www.linkedin.com/in/jeffersonsreis"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Thais Manzano (Ela/Dela)",
+      "job": "Psicóloga, Tech Recruiter e Especialista em Business Innovation",
+      "url": "https://www.linkedin.com/in/thaismanzano"
     }
   ],
   "Contact": {
@@ -163,22 +162,27 @@
     {
       "icon": "fa fa-comments-o",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Mensure a diversidade da sua empresa e retorno financeiro aplicado."
     },
     {
       "icon": "fa fa-bullhorn",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Pesquisa e análise dos dados em 3 meses."
     },
     {
       "icon": "fa fa-group",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Plataforma com ferramentas de IA generativa."
     },
     {
       "icon": "fa fa-magic",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Indicadores de diversidade com base na média nacional."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Selo de compromisso e ranking das empresas."
     }
   ]
 }

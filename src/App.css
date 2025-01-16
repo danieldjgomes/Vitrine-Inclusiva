@@ -11,8 +11,11 @@
   #footer {
     width: 111%;
   }
-
   #portfolio {
     width: 110%;
   }
+}
+img.logo {
+  max-width: 150px;
+  margin: auto;
 }

@@ -17,9 +17,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Vitrine Inclusiva
-          </a>{" "}
+            <a href="#page-top" >
+          <img  src={props.data?.logo} alt="Logotipo da empresa" className="logo page-scroll"/>
+            </a>
+
         </div>
 
         <div

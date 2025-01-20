@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Vitrine Inclusiva",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Promovendo equidade e inclusão: certificamos empresas comprometidas com um mercado mais justo e diverso."
   },
   "About": {
     "paragraph": "Nosso projeto surgiu como parte do trabalho final do nosso MBA, motivado pela vontade de transformar o mercado em um espaço mais justo e inclusivo. Inspirados pelos Objetivos de Desenvolvimento Sustentável da ONU, construímos uma iniciativa alinhada a três pilares essenciais: igualdade de gênero (ODS 5), trabalho decente e crescimento econômico (ODS 8) e redução das desigualdades (ODS 10). Nosso propósito é impulsionar a equidade e criar oportunidades para grupos socialmente minorizados, contribuindo para uma sociedade mais diversa e sustentável.",
@@ -17,7 +17,7 @@
       "Exercitation ullamco",
       "Lorem ipsum dolor"
     ],
-    "mission": "“Transformar o mercado, promovendo a equidade e ampliação de oportunidades para grupos socialmente minorizados, por meio de avaliação, certificação e suporte a empresas comprometidas com a diversidade e inclusão."
+    "mission": "Transformar o mercado, promovendo a equidade e ampliação de oportunidades para grupos socialmente minorizados, por meio de avaliação, certificação e suporte a empresas comprometidas com a diversidade e inclusão."
   },
   "Gallery": [
     {
@@ -68,34 +68,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Cultura Data Drive Decisions - identifique pontos de atenção e trabalhe as potencialidades."
+      "icon": "fas fa-database",
+      "name": "Decisões orientadas por dados",
+      "text": "Identifique pontos de atenção e potencialize oportunidades."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Visibilidade do compromisso com D&I, Políticas de ESG e ODS's com selos e relatórios anuais."
+      "icon": "fas fa-globe",
+      "name": "Transparência e reconhecimento",
+      "text": "Visibilidade do compromisso com D&I, ESG e ODS por meio de selos e relatórios."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Estabeleça uma cultura de transparência e fortalecimento da marca empregadora."
+      "icon": "fas fa-user-tag",
+      "name": "Marca empregadora forte ",
+      "text": "Estabeleça uma cultura de transparência e fortalecimento da empresa."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Um ambiente de trabalho diverso promove a inovação contribuindo para o  resultados financeiros e sucesso da organização."
+      "icon": "fas fa-users",
+      "name": "Diversidade impulsiona inovação.",
+      "text": "Ambientes diversos geram inovação e melhores resultados financeiros."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Identificar oportunidades de melhoria para atrair e reter talentos."
+      "icon": "fas fa-user-check",
+      "name": "Talentos e inclusão",
+      "text": "Identifique oportunidades para atrair e reter talentos."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Promover um ambiente seguro e segurança psicológica para todas as pessoas."
+      "icon": "fas fa-user-shield",
+      "name": "Segurança e bem-estar",
+      "text": "Promova um ambiente seguro e garanta segurança psicológica para todos."
     }
   ],
   "Testimonials": [
@@ -140,7 +140,7 @@
     {
       "img": "img/team/01.jpg",
       "name": "Jefferson Reis (Ele/Dele)",
-      "job": "Analista de Dados e Especialista em Bussinnes Intelligente and Analytics",
+      "job": "Analista de Dados e Especialista em Business Intelligence and Analytics",
       "url": "https://www.linkedin.com/in/jeffersonsreis"
     },
     {
@@ -151,38 +151,43 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "São Paulo - SP, Brasil ",
+    "phone": "+55 99999-9999",
+    "email": "contato@vitrineinclusiva.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
+      "icon": "fas fa-chart-bar",
+      "title": "Indicadores de diversidade",
       "text": "Mensure a diversidade da sua empresa e retorno financeiro aplicado."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "icon": "fas fa-calendar-check",
+      "title": "Diagnóstico ágil",
       "text": "Pesquisa e análise dos dados em 3 meses."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
+      "icon": "fas fa-tools",
+      "title": "Tecnologia avançada",
       "text": "Plataforma com ferramentas de IA generativa."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fas fa-trophy",
+      "title": "Benchmark de diversidade",
       "text": "Indicadores de diversidade com base na média nacional."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fas fa-award",
+      "title": "Reconhecimento e transparência",
       "text": "Selo de compromisso e ranking das empresas."
+    },
+    {
+      "icon": "fas fa-user-shield",
+      "title": "Proteção de dados",
+      "text": "Segurança conforme a LGPD."
     }
   ],
   "Navigation": {

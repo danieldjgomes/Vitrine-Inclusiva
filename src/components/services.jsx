@@ -1,4 +1,5 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const Services = (props) => {
   return (
@@ -6,17 +7,13 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Benefícios</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
-                  <i className={d.icon}></i>
+                  <i className="fa"><FontAwesomeIcon icon={d.icon} /></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

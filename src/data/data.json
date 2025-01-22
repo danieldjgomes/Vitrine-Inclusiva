@@ -4,7 +4,7 @@
     "paragraph": "Promovendo equidade e inclusão: certificamos empresas comprometidas com um mercado mais justo e diverso."
   },
   "About": {
-    "paragraph": "Nosso projeto surgiu como parte do trabalho final do nosso MBA, motivado pela vontade de transformar o mercado em um espaço mais justo e inclusivo. Inspirados pelos Objetivos de Desenvolvimento Sustentável da ONU, construímos uma iniciativa alinhada a três pilares essenciais: igualdade de gênero (ODS 5), trabalho decente e crescimento econômico (ODS 8) e redução das desigualdades (ODS 10). Nosso propósito é impulsionar a equidade e criar oportunidades para grupos socialmente minorizados, contribuindo para uma sociedade mais diversa e sustentável.",
+    "paragraph": "Nosso projeto surgiu como parte do trabalho final do nosso MBA, motivado pela vontade de transformar o mercado em um espaço mais justo e inclusivo. Inspirados pelos Objetivos de Desenvolvimento Sustentável da ONU, construímos uma iniciativa alinhada a três pilares essenciais: igualdade de gênero (ODS 5), trabalho decente e crescimento econômico (ODS 8) e redução das desigualdades (ODS 10).",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -84,7 +84,7 @@
     },
     {
       "icon": "fas fa-users",
-      "name": "Diversidade impulsiona inovação.",
+      "name": "Diversidade impulsiona inovação",
       "text": "Ambientes diversos geram inovação e melhores resultados financeiros."
     },
     {
@@ -134,19 +134,19 @@
     {
       "img": "img/team/03.jpg",
       "name": "Erica Lima (Ela/Dela) ",
-      "job": "Tech Recruiter e Especialista em Psicologia Organizacional e Business Innovation",
+      "job": "Tech Recruiter e Especialista em Psicologia Organizacional",
       "url": "https://www.linkedin.com/in/ericasilvalima/"
     },
     {
       "img": "img/team/01.jpg",
       "name": "Jefferson Reis (Ele/Dele)",
-      "job": "Analista de Dados e Especialista em Business Intelligence and Analytics",
+      "job": " Bussinnes Intelligente and Analytics",
       "url": "https://www.linkedin.com/in/jeffersonsreis"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Thais Manzano (Ela/Dela)",
-      "job": "Psicóloga, Tech Recruiter e Especialista em Business Innovation",
+      "job": "Psicóloga e  Tech Recruiter",
       "url": "https://www.linkedin.com/in/thaismanzano"
     }
   ],

@@ -248,6 +248,11 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
+
+#features iframe{
+  padding-bottom: 20px;
+}
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;

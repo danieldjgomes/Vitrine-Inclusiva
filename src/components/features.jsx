@@ -21,6 +21,11 @@ export const Features = (props) => {
               ))
             : "Loading..."}
         </div>
+          <iframe width="560" height="315"
+                  src="https://www.youtube-nocookie.com/embed/tX2MZw-CvWI?si=a9n3ti2DWRoJxuCh&amp;controls=0"
+                  title="YouTube video player" frameBorder="0"
+                  allow="autoplay; encrypted-media; gyroscope;"
+                  referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
     </div>
   );

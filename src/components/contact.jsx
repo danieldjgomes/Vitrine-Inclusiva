@@ -129,7 +129,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Deixe sua mensagem"
                     required
                     onChange={handleChange}
                   ></textarea>
